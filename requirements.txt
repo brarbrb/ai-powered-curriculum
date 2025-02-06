@@ -1,0 +1,6 @@
+selenium
+deep-translator
+scikit-learn
+sentence-transformers
+pandas
+jupyter
