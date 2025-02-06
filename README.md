@@ -88,6 +88,7 @@ We built a **large and relevant dataset** from various sources:
 ---
 ## **Dataset Links**:
 - [Technion Course Data (Cheesfork GitHub)](https://github.com/cheesfork)
-- [Kaggle Course Data](https://www.kaggle.com/)
+- [Kaggle Udemi Course Data]([https://www.kaggle.com/](https://www.kaggle.com/datasets/suddharshan/best-data-science-courses-udemy))
+- [Kaggle Coursera Course Data](https://www.kaggle.com/datasets/tianyimasf/coursera-course-dataset)
 - [Job Listings from GotFriends](https://www.gotfriends.co.il/)
 
