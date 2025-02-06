@@ -27,7 +27,7 @@ We built a **large and relevant dataset** from various sources:
 - Job listings were filtered to include only data-related roles (e.g., **Data Scientist, Data Engineer, Data Analyst**).
 - Technion courses were limited to the **Faculty of Data and Decision Sciences** to ensure relevance.
 -   Datasets links are attached down bellow.
--   Scraping code can be find in ```sh scraper.py``` file
+-   Scraping code can be find in `scraper.py` file
 
 ---
 
