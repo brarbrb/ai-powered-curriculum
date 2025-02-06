@@ -17,17 +17,18 @@ We built a **large and relevant dataset** from various sources:
   - `job_title`
   - `job_description`
   - `job_requirements`
-    *Note*: Scraping code can be find in scraper.py file
-    
+        
 - **Course Dataset**: Gathered from **Technion (Cheesfork GitHub), Coursera, and Udemy** (~4000 rows). Each course entry contains:
   - `course_name`
   - `course_summary`
   - `course_source`
-  Datasets links are attached down bellow. 
 
-**Filtering:**
+**Notes:**
 - Job listings were filtered to include only data-related roles (e.g., **Data Scientist, Data Engineer, Data Analyst**).
 - Technion courses were limited to the **Faculty of Data and Decision Sciences** to ensure relevance.
+-   Datasets links are attached down bellow.
+-   Scraping code can be find in ```sh scraper.py``` file
+
 ---
 
 ## **AI & Algorithms Used**
