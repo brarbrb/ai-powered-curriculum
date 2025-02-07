@@ -23,7 +23,7 @@ Given the preferred job position we can sort out the most relevant courses using
 
 ## **Data Used**
 We built a large and relevant dataset from various sources:
-- **Job Listings Dataset**: Scraped from **GotFriends** (~2000 rows) using celenium. Each job entry contains:
+- **Job Listings Dataset**: Scraped from **GotFriends** (~2000 rows) using selenium. Each job entry contains:
   - `job_title`
   - `job_description`
   - `job_requirements`
@@ -89,7 +89,7 @@ We built a large and relevant dataset from various sources:
 ---
 ## **Dataset Links**:
 - [Technion Course Data (Cheesfork GitHub)](https://github.com/michael-maltsev/technion-sap-info-fetcher)
-- [Kaggle Udemi Course Data](https://www.kaggle.com/datasets/suddharshan/best-data-science-courses-udemy)
+- [Kaggle Udemy Course Data](https://www.kaggle.com/datasets/suddharshan/best-data-science-courses-udemy)
 - [Kaggle Coursera Course Data](https://www.kaggle.com/datasets/tianyimasf/coursera-course-dataset)
 - [Job Listings from GotFriends](https://www.gotfriends.co.il/) the scraped data is unavailable to download. You can use code used for scraping that we mentioned earlier. 
 
