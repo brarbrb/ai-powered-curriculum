@@ -1,8 +1,12 @@
-selenium
+pyspark
+googletrans==4.0.0-rc1
 deep-translator
-scikit-learn
 sentence-transformers
 pandas
 numpy
-spark-nlp
-jupyter
+matplotlib
+plotly
+scikit-learn
+nltk
+wordcloud
+selenium
