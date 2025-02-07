@@ -12,7 +12,7 @@ This project was inspired by real-world challenges faced by students selecting c
 ---
 
 ## **Data Used**
-We built a **large and relevant dataset** from various sources:
+We built a large and relevant dataset from various sources:
 - **Job Listings Dataset**: Scraped from **GotFriends** (~2000 rows) using celenium. Each job entry contains:
   - `job_title`
   - `job_description`
@@ -26,40 +26,39 @@ We built a **large and relevant dataset** from various sources:
 **Notes:**
 - Job listings were filtered to include only data-related roles (e.g., **Data Scientist, Data Engineer, Data Analyst**).
 - Technion courses were limited to the **Faculty of Data and Decision Sciences** to ensure relevance.
--   Datasets links are attached down bellow.
--   Scraping code can be find in `scraper.py` file
+- Datasets links are attached down bellow.
+- Code used for data scraping can be find in `scraper.py` file
 
 ---
 
 ## **AI & Algorithms Used**
-### **Data Preprocessing & Translation**
-- Used `deep-translator` (GoogleTranslator) to **translate Hebrew job listings** to English.
-- Standardized course descriptions to improve comparability.
+### Data Preprocessing: Translation
+- Used `deep-translator` (GoogleTranslator) to **translate Hebrew job listings** to English. This way is highly flexible and can be used for any other Language.
 
-### **Semantic Similarity with Sentence-BERT**
+### Semantic Similarity with Sentence-BERT
 - Employed **Sentence-BERT (SBERT)** for job-course similarity analysis.
-- **Cosine similarity** was used to find the best-matching courses for each job listing.
+- In SBERT Cosine similarity is used to find the best-matching courses for each job listing.
 
-### **Clustering for Trend Analysis**
+### Clustering for Trend Analysis
 - Applied **K-means clustering** to identify major areas in job listings and course content.
 
 ---
 
 ## **Installation**
-### **1) Clone the Repository**
+### 1) Clone the Repository
 ```sh
  git clone https://github.com/your-username/ai-powered-curriculum.git
  cd ai-powered-curriculum
 ```
-### **2) Install Dependencies**
+### 2) Install Dependencies
 ```sh
  pip install -r requirements.txt
 ```
-### **3) Run the Web Scraper**
+### 3) Run the Web Scraper
 ```sh
  python scraper.py
 ```
-### **4) Run the Jupyter Notebook for Analysis**
+### 4) Run the Jupyter Notebook
 ```sh
  jupyter notebook
 ```
@@ -67,23 +66,8 @@ We built a **large and relevant dataset** from various sources:
 
 ## **Usage**
 1. Run the **web scraper** to collect job listings.
-2. Load the **dataset** in the Jupyter notebook.
-3. Use the **SBERT model** to find relevant courses for a given job listing.
-4. Analyze trends using **K-means clustering**.
-5. Generate **recommendations** for students and job seekers.
----
-
-## **Evaluation & Results**
-
-### **Key Findings**
-- Courses with **high similarity scores** to multiple jobs are likely to be **key skill boosters**.
-- Some job listings used **vague buzzwords**, leading to challenges in precise course matching.
-- Filtering job listings significantly improved recommendation relevance.
-
-  ### **Challenges Faced**
-- **Varying Writing Styles**: Course summaries and job descriptions had different structures, affecting similarity scores.
-- **Computational Resources**: Training SBERT on large datasets required significant processing time.
-- **Empirical Evaluation**: Lack of ground-truth data made it difficult to quantitatively assess the accuracy of our recommendations.
+2. Load the **dataset** in the Jupyter notebook and run it
+3. Generate **recommendations** for students and job seekers.
 
 ---
 ## **Dataset Links**:
