@@ -92,6 +92,7 @@ We built a large and relevant dataset from various sources:
 - [Kaggle Udemi Course Data](https://www.kaggle.com/datasets/suddharshan/best-data-science-courses-udemy)
 - [Kaggle Coursera Course Data](https://www.kaggle.com/datasets/tianyimasf/coursera-course-dataset)
 - [Job Listings from GotFriends](https://www.gotfriends.co.il/)
+- [Our scraped data from gotfriends](https://drive.google.com/file/d/1GYVyT0s6aiUU8BQvittaM3wLSycdGR8N/view?usp=sharing)
 
 ---
 
