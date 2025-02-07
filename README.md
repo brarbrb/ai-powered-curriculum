@@ -3,9 +3,9 @@
 ## Empowering Students to Learn Purposefully
 
 Contributors - Email:
-Anat Lorman - lormana@campus.technion.ac.il
-Alon Eitan - alon.eitan@campus.technion.ac.il
-Barbara Aleksandrov - aleksandrov@campus.technion.ac.il
+- Anat Lorman - lormana@campus.technion.ac.il
+- Alon Eitan - alon.eitan@campus.technion.ac.il
+- Barbara Aleksandrov - aleksandrov@campus.technion.ac.il
 
 
 ---
