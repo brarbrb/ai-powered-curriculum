@@ -3,4 +3,6 @@ deep-translator
 scikit-learn
 sentence-transformers
 pandas
+numpy
+spark-nlp
 jupyter
