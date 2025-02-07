@@ -1,6 +1,9 @@
 # AI Powered Curriculum
 
 ## Empowering Students to Learn Purposefully
+---
+Anat Lorman, Alon Eitan and Barbara Aleksandrov
+
 
 ### **Project Overview**
 In today's rapidly evolving job market, students often struggle to select courses that will enhance their employability and align with industry demands. Our project bridges this gap by providing data-driven insights to help students and job seekers make informed course selections.
