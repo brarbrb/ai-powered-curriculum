@@ -1,16 +1,23 @@
 # AI Powered Curriculum
 
 ## Empowering Students to Learn Purposefully
----
+
 Anat Lorman, Alon Eitan and Barbara Aleksandrov
 
+---
 
-### **Project Overview**
+### Project Overview
 In today's rapidly evolving job market, students often struggle to select courses that will enhance their employability and align with industry demands. Our project bridges this gap by providing data-driven insights to help students and job seekers make informed course selections.
 
 By analyzing job listings and course offerings, our tool matches relevant courses to industry requirements, enabling users to gain essential skills for their desired career paths.
 
 This project was inspired by real-world challenges faced by students selecting courses.
+
+---
+### Outcome
+![image](https://github.com/user-attachments/assets/c3d568f1-adc9-4ac1-bcfb-123069e4f7ef)
+
+Given the preferred job position we can sort out the most relevant courses using their similiarity score. 
 
 ---
 
@@ -29,13 +36,14 @@ We built a large and relevant dataset from various sources:
 **Notes:**
 - Job listings were filtered to include only data-related roles (e.g., **Data Scientist, Data Engineer, Data Analyst**).
 - Technion courses were limited to the **Faculty of Data and Decision Sciences** to ensure relevance.
-- Datasets links are attached down bellow.
+- Datasets links are attached down bellow
+- Raw data used in the project are in `datasets` repository 
 - Code used for data scraping can be find in `scraper.py` file
 
 ---
 
-## **AI & Algorithms Used**
-### Data Preprocessing: Translation
+## **Algorithms and Methods Used**
+### Data Preprocessing: Translation (No API needed)
 - Used `deep-translator` (GoogleTranslator) to **translate Hebrew job listings** to English. This way is highly flexible and can be used for any other Language.
 
 ### Semantic Similarity with Sentence-BERT
@@ -44,6 +52,12 @@ We built a large and relevant dataset from various sources:
 
 ### Clustering for Trend Analysis
 - Applied **K-means clustering** from `sklearn` library to identify major areas in job listings and course content.
+
+### PCA decomposition
+- PCA was used to reduce high dimensional vectors of words to 2 dimensions for visualization purposes
+
+### NLP
+- NLTK library is used for standar NLP purposes: removing stopwords and senamtics, tokenization, vectorization.
 
 ---
 
@@ -63,12 +77,12 @@ We built a large and relevant dataset from various sources:
 ```
 ### 4) Run the Jupyter Notebook
 ```sh
- jupyter notebook
+ jupyter Project.ipynb
 ```
 ---
 
 ## **Usage**
-1. Run the **web scraper** to collect job listings.
+1. Run the **web scraper** to collect job listings. 
 2. Load the **dataset** in the Jupyter notebook and run it
 3. Generate **recommendations** for students and job seekers.
 
@@ -79,3 +93,12 @@ We built a large and relevant dataset from various sources:
 - [Kaggle Coursera Course Data](https://www.kaggle.com/datasets/tianyimasf/coursera-course-dataset)
 - [Job Listings from GotFriends](https://www.gotfriends.co.il/)
 
+---
+
+## Technologies Used
+- Data Scraping & Translation (Selenium, Deep Translate)
+- Data Handling (Pandas, NumPy, nltk, re)
+- ML Models(SentenceTransformer, Scikit-learn)
+- PySpark (Data Processing)
+- Docker (Containerization)
+- Visualization (Matplotlib, Wordclod)
