@@ -36,11 +36,11 @@ We built a large and relevant dataset from various sources:
 - Used `deep-translator` (GoogleTranslator) to **translate Hebrew job listings** to English. This way is highly flexible and can be used for any other Language.
 
 ### Semantic Similarity with Sentence-BERT
-- Employed **Sentence-BERT (SBERT)** for job-course similarity analysis.
-- In SBERT Cosine similarity is used to find the best-matching courses for each job listing.
+- Employed **Sentence-BERT (SBERT)** `'bert-base-nli-mean-tokens'` from `sentence_transformers` library for job-course similarity analysis.
+- In SBERT, Cosine similarity is used to find the best-matching courses for each job listing.
 
 ### Clustering for Trend Analysis
-- Applied **K-means clustering** to identify major areas in job listings and course content.
+- Applied **K-means clustering** from `sklearn` library to identify major areas in job listings and course content.
 
 ---
 
